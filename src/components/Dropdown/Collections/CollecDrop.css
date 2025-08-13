@@ -1,0 +1,53 @@
+.hover-zone {
+  position: relative;
+  display: inline-block;
+  z-index: auto;
+}
+.coll-drop {
+  position: fixed;
+  top: 19%;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 999;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: dropdownFade 0.3s ease;
+}
+.coll-drop a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding-top: 1.5rem;
+}
+.coll-drop a:hover {
+  color: #ba933e;
+}
+@keyframes dropdownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (min-width: 1400px) {
+ .coll-drop {
+   top: 13%;
+  }
+}
+@media (max-width: 768px) {
+  .coll-drop {
+     top: 32%;
+  }
+}
+@media (max-width: 576px) {
+ .coll-drop {
+     top: 38%;
+     max-height: calc(100vh - 37%);
+    overflow-y: auto;
+  }
+  }

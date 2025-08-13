@@ -1,0 +1,248 @@
+export const shopcollay1 = [
+     {
+    image: "/images/shop-collectionLayout1img5.png",
+    name: "Kin Dining Table",
+    oldPrice: 23.90,
+    newPrice: 19.12,
+  },
+  {
+    image: "/images/shop-collectionLayout1img6.png",
+    name: "Slide Table",
+    oldPrice: 23.90,
+    newPrice: 29.00,
+  },
+  {
+    image: "/images/shop-collectionLayout1img7.png",
+    name: "Langue Stack Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img8.png",
+    name: "King Bed",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img9.png",
+    name: "Elepant Lounge Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img10.png",
+    name: "Three Seater Sofa",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img11.png",
+    name: "Dining Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img12.png",
+    name: "Side By Side Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img13.png",
+    name: "Sweeper and Funnel",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout1img14.png",
+    name: "Outdoor Dining Table",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+];
+export const shopcollay2 = [
+     {
+    image: "/images/shop-collectionLayout2img1.png",
+    name: "Kin Dining Table",
+    oldPrice: 23.90,
+    newPrice: 19.12,
+  },
+  {
+    image: "/images/shop-collectionLayout2img2.png",
+    name: "Slide Table",
+    oldPrice: 23.90,
+    newPrice: 29.00,
+  },
+  {
+    image: "/images/shop-collectionLayout2img3.png",
+    name: "Langue Stack Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img4.png",
+    name: "King Bed",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img5.png",
+    name: "Elepant Lounge Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img6.png",
+    name: "Three Seater Sofa",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img7.png",
+    name: "Dining Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img8.png",
+    name: "Side By Side Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img9.png",
+    name: "Sweeper and Funnel",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img10.png",
+    name: "Outdoor Dining Table",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+];
+export const shopcollay3 = [
+     {
+    image: "/images/shop-collectionLayout3img1.png",
+    name: "Kin Dining Table",
+    oldPrice: 23.90,
+    newPrice: 19.12,
+  },
+  {
+    image: "/images/shop-collectionLayout3img2.png",
+    name: "Slide Table",
+    oldPrice: 23.90,
+    newPrice: 29.00,
+  },
+  {
+    image: "/images/shop-collectionLayout3img3.png",
+    name: "Langue Stack Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img4.png",
+    name: "King Bed",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img5.png",
+    name: "Elepant Lounge Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img6.png",
+    name: "Three Seater Sofa",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img7.png",
+    name: "Dining Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img8.png",
+    name: "Side By Side Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img9.png",
+    name: "Sweeper and Funnel",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout3img10.png",
+    name: "Outdoor Dining Table",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+];
+export const shopcollay4 = [
+     {
+    image: "/images/shop-collectionLayout2img1.png",
+    name: "Kin Dining Table",
+    oldPrice: 23.90,
+    newPrice: 19.12,
+  },
+  {
+    image: "/images/shop-collectionLayout2img2.png",
+    name: "Slide Table",
+    oldPrice: 23.90,
+    newPrice: 29.00,
+  },
+  {
+    image: "/images/shop-collectionLayout2img3.png",
+    name: "Langue Stack Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img4.png",
+    name: "King Bed",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img5.png",
+    name: "Elepant Lounge Chair",
+    oldPrice: 23.90,
+    newPrice: 11.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img6.png",
+    name: "Three Seater Sofa",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img7.png",
+    name: "Dining Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img8.png",
+    name: "Side By Side Chair",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img9.png",
+    name: "Sweeper and Funnel",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+  {
+    image: "/images/shop-collectionLayout2img10.png",
+    name: "Outdoor Dining Table",
+    oldPrice: 23.90,
+    newPrice: 12.90,
+  },
+];

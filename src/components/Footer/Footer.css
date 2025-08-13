@@ -1,0 +1,130 @@
+:root {
+    --bg-color: #f5f5f5;
+    --theme-color-default: #ba933e;
+    --color: #666666;
+    --se-color: #ffffff;
+    --headings-color: #1a1a1a;
+    --link-color: #666;
+    --text-color: #444;
+    --btn-bg: #000;
+    --btn-color: #fff;
+    --product-price-color: #373a3c;
+    --product-regular-price-color: #999999;
+}
+footer {
+    background-color: #1a1a1a;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.footer-logo {
+    filter: invert(1) ;
+    width: 8rem;
+    padding-bottom: 2rem;
+}
+.footer-smedia-icon {
+    color: var(--btn-color);
+    font-size: 1.6rem;
+}
+.footer-smedia-icon:hover {
+    color: var(--theme-color-default);
+}
+.footer-col2 h6,
+.footer-col3 h6,
+.footer-col4 h6  {
+    color: var(--se-color);
+    font-weight: 800;
+}
+.footer-col2 a,
+.footer-col3 a {
+    color: var(--product-regular-price-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.footer-col2 a:hover,
+.footer-col3 a:hover {
+    color: var(--theme-color-default);
+}
+.no-icon, .number, .email-link, .location-icon, .address, .location {
+    color: var(--product-regular-price-color);
+}
+.no-icon:hover, .number:hover, .email-link:hover {
+    color: var(--theme-color-default);
+}
+.no-icon {
+    font-size: 1.2rem;
+}
+.email-link {
+    padding-left: 2.5rem;
+}
+.location-icon {
+    font-size: 1.5rem;
+}
+.location {
+    padding-left: 2.8rem;
+}
+.custom-hr {
+    color: #999999;
+    margin-top: 4rem; 
+    margin-bottom: 2rem;
+}
+.copyright-text{
+    color: #999999;
+    padding-left: 1rem;
+}
+.copyright-text span{
+   color: #ffffff;
+   font-weight: 800;
+}
+#back-top {
+  position: fixed;
+  bottom: 1.875rem;
+  right: 1.875rem;
+  z-index: 999;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+#back-top.hide {
+  opacity: 0;
+  transform: scale(0.5);
+  pointer-events: none;
+}
+#back-top.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.back-top-btn,
+.back-bottom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.25rem;
+  box-shadow: 0.125rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.15);
+}
+.back-top-btn:hover,
+.back-bottom-btn:hover {
+    background-color: #ba933e;
+}
+#back-bottom {
+  position: fixed;
+  bottom: 1.875rem;
+  left: 1.875rem;
+  z-index: 999;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+#back-bottom.hide {
+  opacity: 0;
+  transform: scale(0.5);
+  pointer-events: none;
+}
+#back-bottom.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}

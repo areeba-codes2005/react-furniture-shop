@@ -1,0 +1,101 @@
+.con-store-info-heading {
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.con-store-map-icon, .con-store-email-icon {
+    font-size: 2rem;
+    color: #363a42;
+}
+.con-store-address, .con-store-email{
+    color: #444;
+    font-size: .875rem;
+}
+.con-custom-line {
+      color: #6e6e6e;
+}
+.contact-heading {
+    color: #000;
+    font-weight: 800;
+}
+.contact-label {
+    color: #1a1a1a;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.form-control {
+    padding: 0.6rem 1rem;
+    color: #444;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color: #ba933e;
+    outline: 0;
+    box-shadow: none;
+}
+.form-control::placeholder {
+    color: #abaaaa;
+}
+.form-select {
+    color: #444;
+    border: 1px solid #e1e1e1;
+    padding: 0.6rem 1rem;
+    border-radius: 0;
+}
+.form-select:focus {
+     border-color: #ba933e;
+    outline: 0;
+    box-shadow: none;
+}
+.inp-dis {
+    cursor: not-allowed;
+}
+.custom-file-button {
+  background-color: #ba933e;
+  color: #fff;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: inline-block;
+  width: 13%;
+  padding: 0.8rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+.input-optional-note {
+    margin-top: 0.625rem;
+    color: #444;
+}
+.con-send-btn {
+    width: 11%;
+    padding: 0.6rem 0;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    align-self: end;
+    margin-top: 3rem;
+}
+.con-send-btn:hover {
+    background-color: #ba933e;
+}
+@media (max-width: 992px) {
+  .custom-file-button {
+   width: 25%;
+   padding: 0.9rem 0;
+  }
+   .con-send-btn {
+    width: 20%;
+  }
+}
+@media (max-width: 576px) {
+  .custom-file-button {
+   width: 35%;
+   padding: 0.9rem 0;
+  }
+   .con-send-btn {
+    width: 25%;
+  }
+}

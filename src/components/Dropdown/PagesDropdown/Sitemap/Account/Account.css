@@ -1,0 +1,54 @@
+.account-heading {
+    color: #000;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5rem;
+}
+#acct-form {
+    border:  1px solid #ccc;
+    margin: 5rem 0;
+    padding: 2rem 2rem;
+    background-color: #fff;
+}
+#acct-form .account-title {
+    color: #666;
+}
+#acct-form label {
+    color: #1a1a1a;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.form-check-input[type=radio] {
+    border: 1px solid #979797;
+}
+.form-check-input:focus {
+    border-color: #979797;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(186, 147, 62, .25);
+}
+.form-check-input:checked {
+    background-color: #ba933e;
+    box-shadow: none;
+    outline: none;
+}
+#acct-form .form-control:focus {
+    border-color: #ba933e;
+    outline: 0;
+    box-shadow: none;
+}
+/*buttons*/
+#acct-form .save-btn {
+	width: 6.25rem;
+	background: #000;
+	font-weight: 800;
+	color: #fff;
+	border: 0 none;
+	border-radius: 4px;
+	padding: 0.8rem 0.625rem;
+	margin-top: 3rem;
+    font-size: 0.9rem;
+    align-self: end;
+}
+#acct-form .save-btn:hover, #acct-form .save-btn:focus {
+	background-color: #ba933e;
+}

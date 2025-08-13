@@ -1,0 +1,470 @@
+ :root {
+    --bg-color: #f5f5f5;
+    --theme-color-default: #ba933e;
+    --color: #666666;
+    --se-color: #ffffff;
+    --headings-color: #1a1a1a;
+    --link-color: #666;
+    --text-color: #444;
+    --btn-bg: #000;
+    --btn-color: #fff;
+    --product-price-color: #373a3c;
+    --product-regular-price-color: #999999;
+    --on-sale-badge-background: #f39d72;
+    --new-badge-background: #03A9F4;
+}
+
+ /*-- VARIABLES--*/
+ /*Colores*/
+ :root{
+     --first-color: #f2f2f2;
+     --accent-color: #666666;
+     --dark-color: #ba933e;
+ }
+
+ /*Tipografia responsive*/
+ :root{
+     --h1-font-size: 1.5rem;
+     --smaller-font-size: 0.85rem;
+ }
+ .badge {
+    position: absolute;
+    top: 1.2rem;
+    left: 1.3rem;
+    background-color: var(--dark-color);
+    color: var(--first-color); 
+    padding: .4rem .7rem;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: var(--smaller-font-size);
+    z-index: 1;
+    transition: left 0.5s ease;
+
+ }
+ .section-title, .section-subtitle {
+  color: rgb(26, 26, 26);
+ }
+ h1{
+     font-size: var(--h1-font-size);
+ }
+ img{
+     max-width: 100%;
+     height: auto;
+}
+
+ .card{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 1.5rem 2rem;
+     border: 1px solid var(--first-color);
+     overflow: hidden;
+ }
+ article:nth-child(1){
+     background-color: var(--first-color);
+ }
+ .card__img{
+     width: 180px;
+     height: auto;
+     padding: 3rem 0;
+     transition: .5s;
+ }
+ .card__name{
+     position: absolute;
+     left: -25%;
+     top: 0;
+     width: 3.5rem;
+     height: 100%;
+     writing-mode: vertical-rl;
+     transform: rotate(180deg);
+     text-align: center;
+     background-color: var(--dark-color);
+     color: #fff;
+     font-weight: bold;
+     transition: .5s;
+ }
+ .card__icon{
+     font-size: 1.5rem;
+     color: #1A1A1A
+
+ }
+ 
+.card:hover .badge {
+    left: 4rem;
+}
+  
+ .card__icon:hover{
+     color: var(--dark-color);
+ }
+ .card__precis{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     transition: transform 0.5s ease, padding 0.5s ease;
+ }
+ .card__preci{
+     display: block;
+     text-align: center;
+ }
+ .card__preci--before{
+     font-size: var(--smaller-font-size);
+     color: var(--accent-color);
+     text-decoration: line-through;
+     margin-bottom: .25rem;
+ }
+ .card__preci--now{
+     font-size: var(--h3-font-size);
+     color: var(--dark-color);
+     font-weight: bold;
+ }
+ .card:hover{
+     box-shadow: 0 .5rem 1rem  var(--dark-color);
+ }
+ .card:hover .card__name{
+     left: 0;
+ }
+ .card:hover .card__img{
+     transform: rotate(30deg);
+     margin-left: 3.5rem;
+ }
+ .card:hover .card__precis{
+    transform: translateY(-2rem);
+     margin-left: 3.5rem;
+     padding: 0 1.5rem;
+ }
+ 
+/* Container for both buttons */
+.card__buttons {
+  position: absolute;
+  bottom: 0.7rem;
+  left: 59%;
+  transform: translateX(-50%) translateY(20px);
+  display: flex;
+  gap: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Show only on hover */
+.card:hover .card__buttons {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0); 
+}
+
+/* Individual buttons */
+.card__button {
+  padding:0.3rem 0.7rem;
+  background-color: var(--dark-color);
+  color: var(--first-color);
+  border: 1px solid var(--dark-color);
+  border-radius: 0.2rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  transition: box-shadow 0.3s ease;
+  transition: 0.3s all ease;
+}
+
+.card__button:hover {
+  box-shadow: 0 18px 40px -12px #1A1A1A;
+  background-color: #1A1A1A;
+  border: 1px solid #1A1A1A;
+}
+.sec2 .box1 {
+    background-image: url("/images/secbacimg1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 8rem;
+}
+.sec2 .box2 {
+    background-image: url("/images/secbacimg2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 8rem;
+}
+.decorative-box {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Border*/
+.decorative-box .bor {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Pieces of the border */
+.decorative-box .bor:before,
+.decorative-box .bor:after,
+.decorative-box .bor div:before,
+.decorative-box .bor div:after {
+  background-color: var(--btn-color);
+  position: absolute;
+  content: "";
+  display: block;
+  transition: all 1s ease-in-out;
+}
+
+/* Horizontal lines */
+.decorative-box .bor:before,
+.decorative-box .bor:after {
+  width: 0;
+  height: 2px; /* border thickness */
+}
+
+/* Vertical lines */
+.decorative-box .bor div:before,
+.decorative-box .bor div:after {
+  width: 2px;
+  height: 0;
+}
+
+/* Position the border */
+.decorative-box .bor {
+  top: 20px;
+  left: 15px;
+  right: 15px;
+  bottom: 20px;
+}
+.decorative-box .bor:before {
+  top: 0;
+  left: 0;
+}
+.decorative-box .bor:after {
+  bottom: 0;
+  right: 0;
+}
+.decorative-box .bor div:before {
+  bottom: 0;
+  top: 0;
+  
+}
+.decorative-box .bor div:after {
+    bottom: 0;
+    right: 0;   
+}
+
+/* Hover animation for full box effect */
+.decorative-box:hover .bor:before,
+.decorative-box:hover .bor:after {
+  width: 100%;
+}
+.decorative-box:hover .bor div:before,
+.decorative-box:hover .bor div:after {
+  height: 100%;
+}
+.sec2 .decorative-box .con {
+    padding-top: 7rem;
+    padding-left: 2rem;
+}
+.con1 h5 {
+    color: var(--product-price-color);
+    font-weight: 800;
+}
+.con1 h5 span {
+    color: var(--theme-color-default);
+    font-size: inherit;
+}
+.con1 h2 {
+    color: var(--headings-color);
+    font-weight: 900;
+}
+.con1 p {
+    color: #444444;
+}
+.decorative-box .con button {
+    background-color: var(--headings-color);
+    color: var(--se-color);
+    border: 1px solid var(--headings-color);
+    border-radius: 4px 4px 4px 4px;
+    padding: 11px 30px 11px 30px;
+    font-weight: 800;
+    transition: 0.3s all ease;
+}
+.decorative-box .con button span {
+    color: inherit;
+    padding-left: 1em;
+}
+.decorative-box .con button:hover {
+    background-color: var(--theme-color-default);
+    border: 1px solid var(--theme-color-default);
+}
+.con2 h5 {
+    color: var(--se-color);
+    font-weight: 800;
+}
+.con2 h5 span {
+    color: var(--theme-color-default);
+    font-size: inherit;
+}
+.con2 h2 {
+    color: var(--se-color);
+    font-weight: 900;
+}
+.con2 p {
+    color: var(--se-color);
+}
+.sec2 .box3 {
+    background-image: url("/images/secbacimg3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 70vh;
+}
+.sec2 .box4 {
+    background-image: url("/images/secbacimg4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 70vh;
+}
+.sec2 .box5 {
+    background-image: url("/images/secbacimg5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+     
+}
+.decor-box .cont {
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+}
+.decor-box .cont h4 {
+    color: var(--headings-color);
+    font-weight: 800;
+}
+.decor-box .cont p {
+    color: #444444;
+}
+.decor-box .cont a {
+    color: var(--theme-color-default);
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+.decor-box .cont a:hover {
+    color: #1a1a1a;
+}
+.decor-box {
+  position: relative;
+  overflow: hidden;
+}
+.decor-box .bor {
+  position: absolute;
+  pointer-events: none;
+}
+.decor-box .bor:before,
+.decor-box .bor:after,
+.decor-box .bor div:before,
+.decor-box .bor div:after {
+  background-color: #999999;
+  position: absolute;
+  content: "";
+  display: block;
+  transition: all 1s ease-in-out;
+}
+.decor-box .bor:before,
+.decor-box .bor:after {
+  width: 0;
+  height: 2px;
+}
+.decor-box .bor div:before,
+.decor-box .bor div:after {
+  width: 2px;
+  height: 0;
+}
+.decor-box .bor {
+  top: 20px;
+  left: 15px;
+  right: 15px;
+  bottom: 20px;
+}
+.decor-box .bor:before {
+  top: 0;
+  left: 0;
+}
+.decor-box .bor:after {
+  bottom: 0;
+  right: 0;
+}
+.decor-box .bor div:before {
+  bottom: 0;
+  top: 0;
+  
+}
+.decor-box .bor div:after {
+    bottom: 0;
+    right: 0;   
+}
+.decor-box:hover .bor:before,
+.decor-box:hover .bor:after {
+  width: 100%;
+}
+.decor-box:hover .bor div:before,
+.decor-box:hover .bor div:after {
+  height: 100%;
+}
+.sec3 {
+    background-image: url("/images/sec3banner.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.sec3 .content h5 {
+    color: var(--product-price-color);
+    font-weight: 800;
+}
+.sec3 .content h5 span {
+    color: var(--theme-color-default);
+    font-size: inherit;
+}
+.sec3 .content h2 {
+    color: var(--headings-color);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.sec3 .content p {
+    color: #444444;
+}
+.sec3 .content button {
+    background-color: var(--headings-color);
+    color: var(--se-color);
+    border: 1px solid var(--headings-color);
+    border-radius: 4px 4px 4px 4px;
+    padding: 11px 30px 11px 30px;
+    font-weight: 800;
+    transition: 0.3s all ease;
+}
+.sec3 .content button span {
+    color: inherit;
+    padding-left: 1em;
+}
+.sec3 .content button:hover {
+    background-color: var(--theme-color-default);
+    border: 1px solid var(--theme-color-default);
+}
+@media (max-width:768px){
+  .sec2 .box1 {
+    padding-bottom: 9.5rem;
+  }
+}
+@media (max-width: 576px) {
+.card__button {
+  padding:0.4rem 0.9rem;
+  font-size: 1rem;
+}
+.decor-box .cont {
+   padding-right: 0.9rem;
+}
+ .sec3 .content h2 {
+    font-size: 1.5rem;
+}
+}

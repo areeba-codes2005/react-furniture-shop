@@ -1,0 +1,102 @@
+:root {
+    --bg-color: #f5f5f5;
+    --theme-color-default: #ba933e;
+    --color: #666666;
+    --se-color: #ffffff;
+    --headings-color: #1a1a1a;
+    --link-color: #666;
+    --text-color: #444;
+    --btn-bg: #000;
+    --btn-color: #fff;
+    --product-price-color: #373a3c;
+    --product-regular-price-color: #999999;
+}
+.blog-heading {
+    font-weight: 800;
+    color: var(--headings-color);
+}
+.blog-title {
+    color: var(--headings-color);
+}
+.blog-cardimg {
+    transition: 0.7s all ease-in-out;
+}
+.blog-cardimg:hover {
+    transform: scale(1.05);
+}
+.blog-subcategory-btn{
+    background-color: var(--theme-color-default);
+    color: var(--se-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 2px solid var(--theme-color-default);
+    border-radius: 3px;
+    margin-top:1.5rem; 
+    margin-bottom:1.5rem;
+}
+.blog-cardp1 span {
+   font-weight: 800;
+   color: var(--headings-color);
+}
+.blog-cardp1 {
+    color: var(--color);
+}
+.blog-card-post-title {
+    color: var(--headings-color);
+    font-weight: 800;
+    margin: 1.3rem 0;
+}
+.blog-card-post-para {
+    color: #444444;
+}
+.blog-card-btn-read-more {
+    color: var(--headings-color);
+    font-weight: 900;
+    padding: 0.7rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid #d5d3d3;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: 0.3s all ease;
+}
+.blog-card-btn-read-more:hover {
+    background-color: var(--theme-color-default);
+    border: 2px solid var(--theme-color-default);
+    color: var(--btn-color);
+}
+.blog-card-btn-read-more:hover > span {
+    color: var(--btn-color);
+}
+.blog-card-btn-read-more span {
+    margin-left: 1rem;
+    color: var(--headings-color);
+    font-weight: 800;
+}
+.blog-logorow {
+    border-top: 2px solid #d5d3d3;
+    border-bottom: 2px solid #d5d3d3;
+    padding: 2rem 0;
+    margin: 3rem 1rem;
+}
+.blog-logoimg:hover {
+    cursor: pointer;
+}
+.blog-inshead {
+    font-weight: 800;
+    color: var(--headings-color);
+    margin-top: 2rem;
+}
+.blog-inslink {
+    text-decoration: none;
+    color: var(--headings-color);
+    margin-bottom: 1rem;
+
+}
+.blog-insimg {
+    transition: 0.5s all ease-in-out;
+}
+.blog-insimg:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+    

@@ -173,14 +173,14 @@
   border: 1px solid #1A1A1A;
 }
 .sec2 .box1 {
-    background-image: url("/react-furniture-shop/images/secbacimg1.webp");
+    background-image: url("/images/secbacimg1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 8rem;
 }
 .sec2 .box2 {
-    background-image: url("/react-furniture-shop/images/secbacimg2.webp");
+    background-image: url("/images/secbacimg2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -309,21 +309,21 @@
     color: var(--se-color);
 }
 .sec2 .box3 {
-    background-image: url("/react-furniture-shop/images/secbacimg3.webp");
+    background-image: url("/images/secbacimg3.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
      height: 70vh;
 }
 .sec2 .box4 {
-    background-image: url("/react-furniture-shop/images/secbacimg4.webp");
+    background-image: url("/images/secbacimg4.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
      height: 70vh;
 }
 .sec2 .box5 {
-    background-image: url("/react-furniture-shop/images/secbacimg5.webp");
+    background-image: url("/images/secbacimg5.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -409,7 +409,7 @@
   height: 100%;
 }
 .sec3 {
-    background-image: url("/react-furniture-shop/images/sec3banner.webp");
+    background-image: url("/images/sec3banner.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -13,7 +13,7 @@ const HomePage = () => {
     <div>
       <Header />
       <Navbar
-        brandLogo="/react-furniture-shop/images/logo.jpg"
+        brandLogo="/images/logo.jpg"
         menuItems={menuItems}
         socialIcons={socialIcons}
       />

@@ -35,7 +35,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="slide-content">
           <img
-            src="/images/vt_interior_elements_home1_slide_1.webp"
+            src="/react-furniture-shop/images/vt_interior_elements_home1_slide_1.webp"
             alt="slide1"
           />
           <div className="text-overlay">
@@ -55,7 +55,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="slide-content">
           <img
-            src="/images/vt_interior_elements_home1_slide_2.webp"
+            src="/react-furniture-shop/images/vt_interior_elements_home1_slide_2.webp"
             alt="slide2"
           />
           <div className="text-overlay">
@@ -76,7 +76,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="slide-content">
           <img
-            src="/images/vt_interior_elements_home1_slide_3.webp"
+            src="/react-furniture-shop/images/vt_interior_elements_home1_slide_3.webp"
             alt="slide3"
           />
           <div className="text-overlay">

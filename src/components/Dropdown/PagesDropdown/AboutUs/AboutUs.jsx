@@ -47,7 +47,7 @@ const AboutUs = () => {
         <div className="row g-3 mb-5">
           <div className="col-12 col-md-4 col-lg-4">
             <img
-              src="/images/blogimg1.jpg"
+              src={`${process.env.PUBLIC_URL}/images/blogimg1.jpg`}
               alt="Room"
               className="blog-cardimg img-fluid"
             />
@@ -59,7 +59,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-4">
             <img
-              src="/images/blogimg2.jpg"
+              src={`${process.env.PUBLIC_URL}/images/blogimg2.jpg`}
               alt="Kitchen"
               className="blog-cardimg img-fluid"
             />
@@ -71,7 +71,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-4">
             <img
-              src="/images/blogimg3.jpg"
+              src={`${process.env.PUBLIC_URL}/images/blogimg3.jpg`}
               alt="Living Room"
               className="blog-cardimg img-fluid"
             />
@@ -85,7 +85,10 @@ const AboutUs = () => {
       </div>
       <div className="container-fluid">
         <video className="w-100" controls autoPlay muted loop>
-          <source src="/video/lex-stobie-furniture.mp4" type="video/mp4" />
+          <source
+            src={`${process.env.PUBLIC_URL}/video/lex-stobie-furniture.mp4`}
+            type="video/mp4"
+          />
         </video>
       </div>
       <div className="container-fluid">
@@ -96,7 +99,10 @@ const AboutUs = () => {
           </p>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img src="/images/about-teamimg1.avif" alt="..." />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/about-teamimg1.avif`}
+                alt="..."
+              />
               <h5 className="text-center">ANGELA JOLIE</h5>
               <p className="text-center">CEO & Founder</p>
               <div className="d-flex justify-content-center">
@@ -117,7 +123,10 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img src="/images/about-teamimg2.avif" alt="..." />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/about-teamimg2.avif`}
+                alt="..."
+              />
 
               <h5 className="text-center">HANNAH GIBSON</h5>
               <p className="text-center">CEO & Founder</p>
@@ -139,7 +148,10 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img src="/images/about-teamimg3.avif" alt="..." />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/about-teamimg3.avif`}
+                alt="..."
+              />
 
               <h5 className="text-center">LIL WAYNE</h5>
               <p className="text-center">CEO & Founder</p>
@@ -161,7 +173,10 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img src="/images/about-teamimg4.avif" alt="..." />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/about-teamimg4.avif`}
+                alt="..."
+              />
 
               <h5 className="text-center">ROBIN JORDAN</h5>
               <p className="text-center">CEO & Founder</p>

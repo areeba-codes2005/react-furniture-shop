@@ -10,7 +10,7 @@ const ContactPage = () => {
   return (
     <div>
        <Header />
-       <Navbar brandLogo="/images/logo.jpg" menuItems={menuItems} socialIcons={socialIcons} />
+       <Navbar brandLogo=`${process.env.PUBLIC_URL}/images/logo.jpg` menuItems={menuItems} socialIcons={socialIcons} />
        <Carousel />
        <Contact />
        <Footer />

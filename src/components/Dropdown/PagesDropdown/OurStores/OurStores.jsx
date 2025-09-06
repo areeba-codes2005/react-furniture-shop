@@ -10,7 +10,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src="/images/pages-OurStores1.jpg"
+                src={`${process.env.PUBLIC_URL}/images/pages-OurStores1.jpg`}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -62,7 +62,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src="/images/pages-OurStores2.jpg"
+                src={`${process.env.PUBLIC_URL}/images/pages-OurStores2.jpg`}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -114,7 +114,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src="/images/pages-OurStores3.jpg"
+                src={`${process.env.PUBLIC_URL}/images/pages-OurStores3.jpg`}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -166,7 +166,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src="/images/pages-OurStores4.jpg"
+                src={`${process.env.PUBLIC_URL}/images/pages-OurStores4.jpg`}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -218,7 +218,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src="/images/pages-OurStores5.webp"
+                src={`${process.env.PUBLIC_URL}/images/pages-OurStores5.webp`}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />

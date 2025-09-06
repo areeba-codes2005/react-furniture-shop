@@ -139,7 +139,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <img
-              src="/images/shop-collectionLayout1img1.jpg"
+              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img1.jpg`}
               alt="Furniture"
               className="shop-layout-img img-fluid"
             />
@@ -147,7 +147,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <img
-              src="/images/shop-collectionLayout1img2.jpg"
+              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img2.jpg`}
               alt="Chairs"
               className="shop-layout-img img-fluid"
             />
@@ -155,7 +155,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2 mx-md-auto">
             <img
-              src="/images/shop-collectionLayout1img3.jpg"
+              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img3.jpg`}
               alt="Sofas"
               className="shop-layout-img img-fluid"
             />
@@ -163,7 +163,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2 justify-md-content-center">
             <img
-              src="/images/shop-collectionLayout1img4.jpg"
+              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img4.jpg`}
               alt="Construction"
               className="shop-layout-img img-fluid"
             />

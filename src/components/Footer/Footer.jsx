@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="col-12 col-md-12 col-lg-3 mb-3">
               <div className="d-flex flex-column align-items-md-center align-items-lg-start ms-3">
                 <img
-                  src="/images/logo.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/logo.jpg`}
                   className="img-fluid footer-logo"
                   alt="brand-logo"
                 />
@@ -140,7 +140,7 @@ const Footer = () => {
             </div>
             <div className="col-12 col-md-4 col-lg-4">
               <img
-                src="/images/footer-brandlogo.png"
+                src={`${process.env.PUBLIC_URL}/images/footer-brandlogo.png`}
                 className="img-fluid"
                 alt="Brand Logo"
               />

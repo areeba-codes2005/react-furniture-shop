@@ -11,7 +11,7 @@ const AccountPage = () => {
     <div>
       <Header />
       <Navbar
-        brandLogo=`${process.env.PUBLIC_URL}/images/logo.jpg`        menuItems={menuItems}
+        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
         socialIcons={socialIcons}
       />
       <Carousel />

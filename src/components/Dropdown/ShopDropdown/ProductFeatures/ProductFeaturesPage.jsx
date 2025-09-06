@@ -10,9 +10,11 @@ function ProductFeaturesPage({ product }) {
     <>
       <Header />
       <Navbar
-        brandLogo=`${process.env.PUBLIC_URL}/images/logo.jpg`        menuItems={menuItems}
+        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
+        menuItems={menuItems}
         socialIcons={socialIcons}
       />
+
       <Carousel />
       <ProductFeatures product={product} />
       <Footer />

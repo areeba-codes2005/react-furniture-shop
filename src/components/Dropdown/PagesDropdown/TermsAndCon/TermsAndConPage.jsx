@@ -11,9 +11,11 @@ const TermsAndConPage = ({ data }) => {
     <div>
       <Header />
       <Navbar
-        brandLogo=`${process.env.PUBLIC_URL}/images/logo.jpg`        menuItems={menuItems}
+        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
+        menuItems={menuItems}
         socialIcons={socialIcons}
       />
+
       <Carousel />
       <TermsAndCon data={data} />
       <Footer />

@@ -4,6 +4,16 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
+import pageaboutimg1 from "../../../../assets/images/page_about-img1.png";
+import pageaboutimg2 from "../../../../assets/images/page_about-img2.webp";
+import blogimg1 from "../../../../assets/images/blogimg1.jpg";
+import blogimg2 from "../../../../assets/images/blogimg2.jpg";
+import blogimg3 from "../../../../assets/images/blogimg3.jpg";
+import lexstobiefurniture from "../../../../assets/video/lex-stobie-furniture.mp4";
+import aboutteamimg1 from "../../../../assets/images/about-teamimg1.avif";
+import aboutteamimg2 from "../../../../assets/images/about-teamimg2.avif";
+import aboutteamimg3 from "../../../../assets/images/about-teamimg3.avif";
+import aboutteamimg4 from "../../../../assets/images/about-teamimg4.avif";
 
 const AboutUs = () => {
   return (
@@ -32,25 +42,21 @@ const AboutUs = () => {
               claritatem insitam…
             </p>
             <div>
-              <img src="images/page_about-img1.png" alt="signature" />
+              <img src={pageaboutimg1} alt="signature" />
               <p className="mt-3">
                 <strong>John doe–</strong> Founder or Rubix Store
               </p>
             </div>
           </div>
           <div className="col-12 col-md-6 about-chair-img-column">
-            <img src="images/page_about-img2.webp" alt="chair-img" />
+            <img src={pageaboutimg2} alt="chair-img" />
           </div>
         </div>
       </div>
       <div className="container-fluid">
         <div className="row g-3 mb-5">
           <div className="col-12 col-md-4 col-lg-4">
-            <img
-              src={`${process.env.PUBLIC_URL}/images/blogimg1.jpg`}
-              alt="Room"
-              className="blog-cardimg img-fluid"
-            />
+            <img src={blogimg1} alt="Room" className="blog-cardimg img-fluid" />
             <h5 className="blog-card-post-title">OUR VISION</h5>
             <p className="blog-card-post-para">
               Many desktop publishing packages and web page editors now use
@@ -59,7 +65,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-4">
             <img
-              src={`${process.env.PUBLIC_URL}/images/blogimg2.jpg`}
+              src={blogimg2}
               alt="Kitchen"
               className="blog-cardimg img-fluid"
             />
@@ -71,7 +77,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-4">
             <img
-              src={`${process.env.PUBLIC_URL}/images/blogimg3.jpg`}
+              src={blogimg3}
               alt="Living Room"
               className="blog-cardimg img-fluid"
             />
@@ -85,10 +91,7 @@ const AboutUs = () => {
       </div>
       <div className="container-fluid">
         <video className="w-100" controls autoPlay muted loop>
-          <source
-            src={`${process.env.PUBLIC_URL}/video/lex-stobie-furniture.mp4`}
-            type="video/mp4"
-          />
+          <source src={lexstobiefurniture} type="video/mp4" />
         </video>
       </div>
       <div className="container-fluid">
@@ -99,10 +102,7 @@ const AboutUs = () => {
           </p>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img
-                src={`${process.env.PUBLIC_URL}/images/about-teamimg1.avif`}
-                alt="..."
-              />
+              <img src={aboutteamimg1} alt="CEO & Foundere image" />
               <h5 className="text-center">ANGELA JOLIE</h5>
               <p className="text-center">CEO & Founder</p>
               <div className="d-flex justify-content-center">
@@ -123,10 +123,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img
-                src={`${process.env.PUBLIC_URL}/images/about-teamimg2.avif`}
-                alt="..."
-              />
+              <img src={aboutteamimg2} alt="CEO & Foundere image" />
 
               <h5 className="text-center">HANNAH GIBSON</h5>
               <p className="text-center">CEO & Founder</p>
@@ -148,10 +145,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img
-                src={`${process.env.PUBLIC_URL}/images/about-teamimg3.avif`}
-                alt="..."
-              />
+              <img src={aboutteamimg3} alt="CEO & Foundere image" />
 
               <h5 className="text-center">LIL WAYNE</h5>
               <p className="text-center">CEO & Founder</p>
@@ -173,10 +167,7 @@ const AboutUs = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="about-team-info-box">
-              <img
-                src={`${process.env.PUBLIC_URL}/images/about-teamimg4.avif`}
-                alt="..."
-              />
+              <img src={aboutteamimg4} alt="CEO & Foundere image" />
 
               <h5 className="text-center">ROBIN JORDAN</h5>
               <p className="text-center">CEO & Founder</p>

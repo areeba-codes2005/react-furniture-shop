@@ -1,32 +1,38 @@
+import shopcollectionLayout1img1 from "../../assets/images/shop-collectionLayout1img1.jpg";
+import shopcollectionLayout1img2 from "../../assets/images/shop-collectionLayout1img2.jpg";
+import shopcollectionLayout1img3 from "../../assets/images/shop-collectionLayout1img3.jpg";
+import shopcollectionLayout1img4 from "../../assets/images/shop-collectionLayout1img4.jpg";
+import bloginsimg1 from "../../assets/images/blog-insimg1.webp";
+import bloginsimg2 from "../../assets/images/blog-insimg2.webp";
 export const CollectDrop = [
   {
     name: "Furniture",
-    img: `${process.env.PUBLIC_URL}/images/shop-collectionLayout1img1.jpg`,
+    img: shopcollectionLayout1img1,
     link: "/furniture",
   },
   {
     name: "Lighting Lamp",
-    img: `${process.env.PUBLIC_URL}/images/shop-collectionLayout1img2.jpg`,
+    img: shopcollectionLayout1img2,
     link: "/lighting-lamp",
   },
   {
     name: "Decor Art",
-    img: `${process.env.PUBLIC_URL}/images/shop-collectionLayout1img3.jpg`,
+    img: shopcollectionLayout1img3,
     link: "/decor-art",
   },
   {
     name: "Chairs",
-    img: `${process.env.PUBLIC_URL}/images/shop-collectionLayout1img4.jpg`,
+    img: shopcollectionLayout1img4,
     link: "/chairs",
   },
   {
     name: "Artisan Appeal",
-    img: `${process.env.PUBLIC_URL}/images/blog-insimg1.webp`,
+    img: bloginsimg1,
     link: "/artisan-appeal",
   },
   {
     name: "Boho Bliss",
-    img: `${process.env.PUBLIC_URL}/images/blog-insimg2.webp`,
+    img: bloginsimg2,
     link: "/boho-bliss",
   },
 ];

@@ -1,3 +1,7 @@
+import shoppopularhangingeggchair from "../../assets/images/shop-popular-hanging-egg-chair.png";
+import shoppopularcushionYellow from "../../assets/images/shop-popular-cushion-Yellow.png";
+import shoppopularpedantlamp from "../../assets/images/shop-popular-pedant-lamp.png";
+
 const shopCategories = [
   {
     title: "Collection Layout",
@@ -47,19 +51,19 @@ const shopCategories = [
         name: "Hanging egg chair",
         rating: 5,
         price: "$9.00",
-        image: `${process.env.PUBLIC_URL}/images/shop-popular-hanging-egg-chair.png`,
+        image: shoppopularhangingeggchair,
       },
       {
         name: "Objects cushion-Yellow",
         rating: 5,
         price: "$9.00",
-        image: `${process.env.PUBLIC_URL}/images/shop-popular-cushion-Yellow.png`,
+        image: shoppopularcushionYellow,
       },
       {
         name: "Victo pedant lamp",
         rating: 5,
         price: "$9.00",
-        image: `${process.env.PUBLIC_URL}/images/shop-popular-pedant-lamp.png`,
+        image: shoppopularpedantlamp,
       },
     ],
   },

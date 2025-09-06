@@ -1,11 +1,10 @@
+import productFeature1 from "../../assets/images/productFeature1.jpg";
+import productFeature2 from "../../assets/images/productFeature2.jpg";
+import productFeature3 from "../../assets/images/productFeature3.jpg";
+import productFeature4 from "../../assets/images/productFeature4.jpg";
 const product = {
   title: "Storm Small Jug",
-  images: [
-    `${process.env.PUBLIC_URL}/images/productFeature1.jpg`,
-    `${process.env.PUBLIC_URL}/images/productFeature2.jpg`,
-    `${process.env.PUBLIC_URL}/images/productFeature3.jpg`,
-    `${process.env.PUBLIC_URL}/images/productFeature4.jpg`,
-  ],
+  images: [productFeature1, productFeature2, productFeature3, productFeature4],
   description:
     "Symbol of lightness and delicacy, the hummingbird evokes curiosity and joy. Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.",
   ProductDetails: {

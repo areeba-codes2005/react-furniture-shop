@@ -176,14 +176,12 @@ article:nth-child(1) {
   border: 1px solid #1a1a1a;
 }
 .sec2 .box1 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg1.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-bottom: 8rem;
 }
 .sec2 .box2 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg2.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -311,21 +309,18 @@ article:nth-child(1) {
   color: var(--se-color);
 }
 .sec2 .box3 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg3.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
 }
 .sec2 .box4 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg4.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
 }
 .sec2 .box5 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg5.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -409,7 +404,6 @@ article:nth-child(1) {
   height: 100%;
 }
 .sec3 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/sec3banner.webp`);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

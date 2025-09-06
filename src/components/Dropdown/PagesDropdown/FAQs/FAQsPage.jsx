@@ -6,15 +6,13 @@ import Carousel from "../../../Carousel/Carousel";
 import FAQs from "./FAQs";
 import FAQsData from "../../../data/FAQsData";
 import Footer from "../../../Footer/Footer";
+import logo from "../../../../assets/images/logo.jpg";
 
 const FAQsPage = () => {
   return (
     <div>
       <Header />
-      <Navbar
-        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
-        socialIcons={socialIcons}
-      />
+      <Navbar brandLogo={logo} socialIcons={socialIcons} />
       <Carousel />
       <FAQs faqs={FAQsData} />
       <Footer />

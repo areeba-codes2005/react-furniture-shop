@@ -1,5 +1,10 @@
 import React from "react";
 import "./OurStores.css";
+import pagesOurStores1 from "../../../../assets/images/pages-OurStores1.jpg";
+import pagesOurStores2 from "../../../../assets/images/pages-OurStores2.jpg";
+import pagesOurStores3 from "../../../../assets/images/pages-OurStores3.jpg";
+import pagesOurStores4 from "../../../../assets/images/pages-OurStores4.jpg";
+import pagesOurStores5 from "../../../../assets/images/pages-OurStores5.webp";
 
 const OurStores = () => {
   return (
@@ -10,7 +15,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src={`${process.env.PUBLIC_URL}/images/pages-OurStores1.jpg`}
+                src={pagesOurStores1}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -62,7 +67,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src={`${process.env.PUBLIC_URL}/images/pages-OurStores2.jpg`}
+                src={pagesOurStores2}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -114,7 +119,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src={`${process.env.PUBLIC_URL}/images/pages-OurStores3.jpg`}
+                src={pagesOurStores3}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -166,7 +171,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src={`${process.env.PUBLIC_URL}/images/pages-OurStores4.jpg`}
+                src={pagesOurStores4}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />
@@ -218,7 +223,7 @@ const OurStores = () => {
           <div className="row justify-content-between stores-row">
             <div className="col-12 col-md-6 d-flex">
               <img
-                src={`${process.env.PUBLIC_URL}/images/pages-OurStores5.webp`}
+                src={pagesOurStores5}
                 className="img-fluid w-40 d-none d-md-block d-lg-block storesimg-custom-w"
                 alt=""
               />

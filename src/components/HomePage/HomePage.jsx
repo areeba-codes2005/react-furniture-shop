@@ -7,13 +7,14 @@ import ProductPage from "../Product/ProductPage";
 import NewsletterForm from "../Newsletter/NewsletterForm";
 import Blog from "../Blog/Blog";
 import Footer from "../Footer/Footer";
+import logo from "../../assets/images/logo.jpg";
 
 const HomePage = () => {
   return (
     <div>
       <Header />
       <Navbar
-        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
+        brandLogo={logo}
         menuItems={menuItems}
         socialIcons={socialIcons}
       />

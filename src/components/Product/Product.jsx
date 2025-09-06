@@ -1,4 +1,10 @@
 import "./Product.css";
+import secbacimg1 from "../../assets/images/secbacimg1.webp";
+import secbacimg2 from "../../assets/images/secbacimg2.webp";
+import secbacimg3 from "../../assets/images/secbacimg3.webp";
+import secbacimg4 from "../../assets/images/secbacimg4.webp";
+import secbacimg5 from "../../assets/images/secbacimg5.webp";
+import sec3banner from "../../assets/images/sec3banner.webp";
 
 const Product = () => {
   return (
@@ -11,7 +17,12 @@ const Product = () => {
               data-aos="fade-right"
               data-aos-offset="700"
             >
-              <div className="box1 decorative-box m-3">
+              <div
+                className="box1 decorative-box m-3"
+                style={{
+                  backgroundImage: `url(${secbacimg1})`,
+                }}
+              >
                 <span className="bor">
                   <div></div>
                 </span>
@@ -35,7 +46,12 @@ const Product = () => {
               data-aos="fade-left"
               data-aos-offset="700"
             >
-              <div className="box2 decorative-box m-3">
+              <div
+                className="box2 decorative-box m-3"
+                style={{
+                  backgroundImage: `url(${secbacimg2})`,
+                }}
+              >
                 <span className="bor">
                   <div></div>
                 </span>
@@ -63,7 +79,12 @@ const Product = () => {
               data-aos="fade-right"
               data-aos-offset="700"
             >
-              <div className="box3 decor-box">
+              <div
+                className="box3 decor-box"
+                style={{
+                  backgroundImage: `url(${secbacimg3})`,
+                }}
+              >
                 <span className="bor">
                   <div></div>
                 </span>
@@ -79,7 +100,12 @@ const Product = () => {
               data-aos="fade-right"
               data-aos-offset="700"
             >
-              <div className="box4 decor-box">
+              <div
+                className="box4 decor-box"
+                style={{
+                  backgroundImage: `url(${secbacimg4})`,
+                }}
+              >
                 <span className="bor">
                   <div></div>
                 </span>
@@ -95,7 +121,12 @@ const Product = () => {
               data-aos="fade-left"
               data-aos-offset="700"
             >
-              <div className="box5 decor-box">
+              <div
+                className="box5 decor-box"
+                style={{
+                  backgroundImage: `url(${secbacimg5})`,
+                }}
+              >
                 <span className="bor">
                   <div></div>
                 </span>
@@ -109,7 +140,14 @@ const Product = () => {
           </div>
         </div>
       </section>
-      <section className="sec3" data-aos="zoom-in" data-aos-offset="700">
+      <section
+        className="sec3"
+        style={{
+          backgroundImage: `url(${sec3banner})`,
+        }}
+        data-aos="zoom-in"
+        data-aos-offset="700"
+      >
         <div className="container-fluid">
           <div className="row">
             <div className="d-none d-md-block col-md-5 col-lg-6"></div>

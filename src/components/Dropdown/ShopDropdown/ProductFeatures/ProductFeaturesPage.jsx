@@ -4,13 +4,14 @@ import Carousel from "../../../Carousel/Carousel";
 import Footer from "../../../Footer/Footer";
 import { menuItems, socialIcons } from "../../../data/navItems";
 import ProductFeatures from "./ProductFeatures";
+import logo from "../../../../assets/images/logo.jpg"
 
 function ProductFeaturesPage({ product }) {
   return (
     <>
       <Header />
       <Navbar
-        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
+        brandLogo={logo}
         menuItems={menuItems}
         socialIcons={socialIcons}
       />

@@ -4,6 +4,12 @@ import { IoIosArrowUp } from "react-icons/io";
 import ProductCard from "../../../Product/ProductCard";
 import "./CollectionLayout.css";
 import { Tooltip } from "bootstrap";
+import shopcollectionLayout1img1 from "../../../../assets/images/shop-collectionLayout1img1.jpg";
+import shopcollectionLayout1img2 from "../../../../assets/images/shop-collectionLayout1img2.jpg";
+import shopcollectionLayout1img3 from "../../../../assets/images/shop-collectionLayout1img3.jpg";
+import shopcollectionLayout1img4 from "../../../../assets/images/shop-collectionLayout1img4.jpg";
+import secbacimg3 from "../../../../assets/images/secbacimg3.webp";
+import secbacimg4 from "../../../../assets/images/secbacimg4.webp";
 
 const CollectionLayout = ({ data, heading }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -139,7 +145,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <img
-              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img1.jpg`}
+              src={shopcollectionLayout1img1}
               alt="Furniture"
               className="shop-layout-img img-fluid"
             />
@@ -147,7 +153,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2">
             <img
-              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img2.jpg`}
+              src={shopcollectionLayout1img2}
               alt="Chairs"
               className="shop-layout-img img-fluid"
             />
@@ -155,7 +161,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2 mx-md-auto">
             <img
-              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img3.jpg`}
+              src={shopcollectionLayout1img3}
               alt="Sofas"
               className="shop-layout-img img-fluid"
             />
@@ -163,7 +169,7 @@ const CollectionLayout = ({ data, heading }) => {
           </div>
           <div className="col-6 col-md-4 col-lg-2 justify-md-content-center">
             <img
-              src={`${process.env.PUBLIC_URL}/images/shop-collectionLayout1img4.jpg`}
+              src={shopcollectionLayout1img4}
               alt="Construction"
               className="shop-layout-img img-fluid"
             />
@@ -317,7 +323,12 @@ const CollectionLayout = ({ data, heading }) => {
 
           {/* ✅ Insert box3 */}
           <div className="col-12 col-md-6 col-lg-3 mb-4">
-            <div className="box3 decor-box">
+            <div
+              className="box3 decor-box"
+              style={{
+                backgroundImage: `url(${secbacimg3})`,
+              }}
+            >
               <span className="bor">
                 <div></div>
               </span>
@@ -361,7 +372,9 @@ const CollectionLayout = ({ data, heading }) => {
 
           {/* ✅ Insert box4 */}
           <div className="col-12 col-md-6 col-lg-3 mb-4">
-            <div className="box4 decor-box">
+            <div className="box4 decor-box" style={{
+                backgroundImage: `url(${secbacimg4})`,
+              }}>
               <span className="bor">
                 <div></div>
               </span>

@@ -8,6 +8,8 @@ import { FaHeadphonesAlt } from "react-icons/fa";
 import { LiaLocationArrowSolid } from "react-icons/lia";
 import { FaAngleDoubleUp } from "react-icons/fa";
 import { FaAngleDoubleDown } from "react-icons/fa";
+import logo from "../../assets/images/logo.jpg";
+import footerbrandlogo from "../../assets/images/footer-brandlogo.png";
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -61,7 +63,7 @@ const Footer = () => {
             <div className="col-12 col-md-12 col-lg-3 mb-3">
               <div className="d-flex flex-column align-items-md-center align-items-lg-start ms-3">
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/logo.jpg`}
+                  src={logo}
                   className="img-fluid footer-logo"
                   alt="brand-logo"
                 />
@@ -140,7 +142,7 @@ const Footer = () => {
             </div>
             <div className="col-12 col-md-4 col-lg-4">
               <img
-                src={`${process.env.PUBLIC_URL}/images/footer-brandlogo.png`}
+                src={footerbrandlogo}
                 className="img-fluid"
                 alt="Brand Logo"
               />

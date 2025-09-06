@@ -2,11 +2,17 @@ import "./NewsletterForm.css";
 import { PiAirplaneTiltBold } from "react-icons/pi";
 import { PiBrowserBold } from "react-icons/pi";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import Newsletterbanner from "../../assets/images/Newsletterbanner.webp";
 
 const NewsletterForm = () => {
   return (
     <div>
-      <section className="sec4 mt-5">
+      <section
+        className="sec4 mt-5"
+        style={{
+          backgroundImage: `url(${Newsletterbanner})`,
+        }}
+      >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12 col-md-10 col-lg-10">

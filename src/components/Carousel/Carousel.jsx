@@ -5,6 +5,9 @@ import "./Carousel.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import homeSlide1 from "../../assets/images/homeSlide1.webp";
+import homeSlide2 from "../../assets/images/homeSlide2.webp";
+import homeSlide3 from "../../assets/images/homeSlide3.webp";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
@@ -34,10 +37,7 @@ const Carousel = () => {
     >
       <SwiperSlide>
         <div className="slide-content">
-          <img
-            src={`${process.env.PUBLIC_URL}/images/vt_interior_elements_home1_slide_1.webp`}
-            alt="slide1"
-          />
+          <img src={homeSlide1} alt="slide1" />
           <div className="text-overlay">
             <p className="slide-heading" data-aos="fade-right">
               Quick parcel delivery,<span>from $25</span>
@@ -54,10 +54,7 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="slide-content">
-          <img
-            src={`${process.env.PUBLIC_URL}/images/vt_interior_elements_home1_slide_2.webp`}
-            alt="slide2"
-          />
+          <img src={homeSlide2} alt="slide2" />
           <div className="text-overlay">
             <p className="slide-heading">
               Quick parcel delivery,<span>from $25</span>
@@ -75,10 +72,7 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="slide-content">
-          <img
-            src={`${process.env.PUBLIC_URL}/images/vt_interior_elements_home1_slide_3.webp`}
-            alt="slide3"
-          />
+          <img src={homeSlide3} alt="slide3" />
           <div className="text-overlay">
             <p className="slide-heading">
               Quick parcel delivery,<span>from $25</span>

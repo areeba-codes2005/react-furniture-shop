@@ -1,5 +1,20 @@
 import React from "react";
 import "./Blog.css";
+import blogimg1 from "../../assets/images/blogimg1.jpg";
+import blogimg2 from "../../assets/images/blogimg2.jpg";
+import blogimg3 from "../../assets/images/blogimg3.jpg";
+import bloglogo1 from "../../assets/images/bloglogo1.jpg";
+import bloglogo2 from "../../assets/images/bloglogo2.jpg";
+import bloglogo3 from "../../assets/images/bloglogo3.jpg";
+import bloglogo4 from "../../assets/images/bloglogo4.jpg";
+import bloglogo5 from "../../assets/images/bloglogo5.jpg";
+import bloglogo6 from "../../assets/images/bloglogo6.jpg";
+import bloginsimg1 from "../../assets/images/blog-insimg1.webp";
+import bloginsimg2 from "../../assets/images/blog-insimg2.webp";
+import bloginsimg3 from "../../assets/images/blog-insimg3.webp";
+import bloginsimg4 from "../../assets/images/blog-insimg4.webp";
+import bloginsimg5 from "../../assets/images/blog-insimg5.webp";
+import bloginsimg6 from "../../assets/images/blog-insimg6.webp";
 
 const Blog = () => {
   return (
@@ -25,11 +40,7 @@ const Blog = () => {
             data-aos="fade-up"
             data-aos-offset="900"
           >
-            <img
-              src={`${process.env.PUBLIC_URL}/images/blogimg1.jpg`}
-              alt="Room"
-              className="blog-cardimg img-fluid"
-            />
+            <img src={blogimg1} alt="Room" className="blog-cardimg img-fluid" />
             <button type="button" className="blog-subcategory-btn">
               SUB CATEGORY 1
             </button>
@@ -54,7 +65,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blogimg2.jpg`}
+              src={blogimg2}
               alt="Kitchen"
               className="blog-cardimg img-fluid"
             />
@@ -82,7 +93,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blogimg3.jpg`}
+              src={blogimg3}
               alt="Living Room"
               className="blog-cardimg img-fluid"
             />
@@ -112,42 +123,42 @@ const Blog = () => {
         >
           <div className="col-6 col-md-3 col-lg-2">
             <img
-              src={`${process.env.PUBLIC_URL}/images/bloglogo1.jpg`}
+              src={bloglogo1}
               alt="Logo"
               className="img-fluid blog-logoimg"
             />
           </div>
           <div className="col-6 col-md-3 col-lg-2">
             <img
-              src={`${process.env.PUBLIC_URL}/images/bloglogo2.jpg`}
+              src={bloglogo2}
               alt="Logo"
               className="img-fluid blog-logoimg"
             />
           </div>
           <div className="col-6 col-md-3 col-lg-2 d-none d-md-block">
             <img
-              src={`${process.env.PUBLIC_URL}/images/bloglogo3.jpg`}
+              src={bloglogo3}
               alt="Logo"
               className="img-fluid blog-logoimg"
             />
           </div>
           <div className="col-6 col-md-3 col-lg-2 d-none d-md-block">
             <img
-              src={`${process.env.PUBLIC_URL}/images/bloglogo4.jpg`}
+              src={bloglogo4}
               alt="Logo"
               className="img-fluid blog-logoimg"
             />
           </div>
           <div className="col-6 col-md-3 col-lg-2 d-none d-lg-block">
             <img
-              src={`${process.env.PUBLIC_URL}/images/bloglogo5.jpg`}
+              src={bloglogo5}
               alt="Logo"
               className="img-fluid blog-logoimg"
             />
           </div>
           <div className="col-6 col-md-3 col-lg-2 d-none d-lg-block">
             <img
-              src={`${process.env.PUBLIC_URL}/images/bloglogo6.jpg`}
+              src={bloglogo6}
               alt="Logo"
               className="img-fluid blog-logoimg"
             />
@@ -175,7 +186,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blog-insimg1.webp`}
+              src={bloginsimg1}
               alt="Chair"
               className="img-fluid blog-insimg"
             />
@@ -186,7 +197,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blog-insimg2.webp`}
+              src={bloginsimg2}
               alt="Chairs"
               className="img-fluid blog-insimg"
             />
@@ -197,7 +208,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blog-insimg3.webp`}
+              src={bloginsimg3}
               alt="Lamp"
               className="img-fluid blog-insimg"
             />
@@ -208,7 +219,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blog-insimg4.webp`}
+              src={bloginsimg4}
               alt="Table"
               className="img-fluid blog-insimg"
             />
@@ -219,7 +230,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blog-insimg5.webp`}
+              src={bloginsimg5}
               alt="Two Seater Sofa"
               className="img-fluid blog-insimg"
             />
@@ -230,7 +241,7 @@ const Blog = () => {
             data-aos-offset="900"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/images/blog-insimg6.webp`}
+              src={bloginsimg6}
               alt="Table"
               className="img-fluid blog-insimg"
             />

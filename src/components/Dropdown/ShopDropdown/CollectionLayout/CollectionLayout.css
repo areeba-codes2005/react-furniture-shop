@@ -129,14 +129,12 @@
   cursor: pointer;
 }
 .box3 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg3.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
 }
 .box4 {
-  background-image: url(`${process.env.PUBLIC_URL}/images/secbacimg4.webp`);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

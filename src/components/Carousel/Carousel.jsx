@@ -25,6 +25,8 @@ const Carousel = () => {
       speed={2000}
       spaceBetween={30}
       centeredSlides={true}
+      loop={true}
+      rewind={true}
       autoplay={{
         delay: 6000,
         disableOnInteraction: false,

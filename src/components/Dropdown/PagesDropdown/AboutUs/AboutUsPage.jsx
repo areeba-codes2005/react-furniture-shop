@@ -5,13 +5,14 @@ import { menuItems, socialIcons } from "../../../data/navItems";
 import Carousel from "../../../Carousel/Carousel";
 import AboutUs from "./AboutUs";
 import Footer from "../../../Footer/Footer";
+import logo from "../../../../assets/images/logo.jpg"
 
 const AboutUsPage = () => {
   return (
     <div>
       <Header />
       <Navbar
-        brandLogo={`${process.env.PUBLIC_URL}/images/logo.jpg`}
+        brandLogo={logo}
         menuItems={menuItems}
         socialIcons={socialIcons}
       />

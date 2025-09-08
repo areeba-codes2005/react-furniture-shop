@@ -42,7 +42,7 @@ const Sitemap = () => {
         navigate("/artisan-appeal");
         break;
       case "Boho Bliss":
-        navigate("/boho-blissl");
+        navigate("/boho-bliss");
         break;
       case "Sofas":
         navigate("/sofas");

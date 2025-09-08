@@ -12,7 +12,7 @@ const FAQsPage = () => {
   return (
     <div>
       <Header />
-      <Navbar brandLogo={logo} socialIcons={socialIcons} />
+      <Navbar brandLogo={logo} menuItems={menuItems} socialIcons={socialIcons} />
       <Carousel />
       <FAQs faqs={FAQsData} />
       <Footer />
